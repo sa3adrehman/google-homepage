@@ -1,0 +1,114 @@
+body{
+font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+font-size: 10pt;
+font-weight: 300;
+margin:0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100% ;
+    min-height: 50px;
+    margin-top:10px;
+}
+
+
+div a{
+    display:inline-block;
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    margin:auto 5px 10px 10px;
+}
+
+i{
+    font-size: large;
+    color:#757575;
+}
+.left{ 
+    margin-top: -3px;
+    margin-left:15px;
+    max-width: 155px;
+}
+.right{
+    max-width: 355px;
+    margin-right: 20px;
+}
+.mid{min-width: 56%;}
+
+.signin {
+	background:linear-gradient(to bottom, #4286f4 5%, #4286f4 100%);
+	background-color:#4286f4;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px 12px;
+    text-decoration:none;
+    margin-right: 20px;
+}
+.signin:active {
+	position:relative;
+	top:1px;
+}
+
+#center{display:block;
+    margin: 150px 0;
+}
+
+img, input{
+    display:block;
+    margin: 30px auto;
+}
+
+input{min-width: 550px;
+border-radius: 20px;
+min-height: 40px;
+border: black solid 1px
+}
+
+#search{
+    margin:auto;
+    text-align: center;
+}
+.srch {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: rgb(124, 125, 126);
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 7px 20px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .srch:hover {
+    background: rgba(242, 242, 242, 0.53);
+    border: solid rgb(73, 72, 72) 1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+ }
+
+.footer{
+    background:#F2F2F2;
+    font-size: 15px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+ .leftfooter{ 
+    max-width: 2000px;
+    margin:0 20px;
+}
